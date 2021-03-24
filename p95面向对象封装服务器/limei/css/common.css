@@ -1,0 +1,41 @@
+/*放公共样式的*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*版心*/
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*header star*/
+header{
+    height: 80px;
+    width: 100%;
+    background: #FCFCFD;
+}
+
+header .logo{
+    margin-top: 19px;
+}
+
+header .nav ul li{
+    float: left;
+}
+
+header .nav ul li a{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 80px;
+}
+
+footer{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
