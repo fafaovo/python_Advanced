@@ -12,6 +12,14 @@ queue = multiprocessing.Queue(5)
 queue.put("这是一个值")
 queue.put([1, 2, 3, 4, 5])
 
+# 判断队列是否已满 True 满 False未满
+print(f"队列是否为满 :{queue.full()}")
+# 判断队列是否为空 True 空 False 不是空
+print(f"队列是否为空:{queue.empty()}")
+# 判断队列中消息的个数
+print(f"队列中消息的个数:{queue.qsize()}")
+
 """get一次取一次"""
 print(queue.get())
 print(queue.get())
+
