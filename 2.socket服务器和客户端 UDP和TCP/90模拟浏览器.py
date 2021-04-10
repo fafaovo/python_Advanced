@@ -41,3 +41,4 @@ with open('cpp.html', 'w') as file:
     file.write(html_data)
 # 8.断开连接
 tcp_client_socket.close()
+

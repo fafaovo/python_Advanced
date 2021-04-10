@@ -23,6 +23,6 @@ tcp_client.send("在吗？".encode())
 # 接收数据,此时会直接受到一个二进制内容
 recv_data = tcp_client.recv(1024)
 print("收到数据"+recv_data.decode())
-
-tcp_client.close()
 # 关闭连接
+tcp_client.close()
+

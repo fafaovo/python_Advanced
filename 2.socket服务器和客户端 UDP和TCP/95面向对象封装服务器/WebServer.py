@@ -39,6 +39,8 @@ class WebServer(object):
 
         data_line = "HTTP/1.1 200 OK\r\n"
         data_head = "Server/python\r\n"
+        data_head += "Content-Type: text/html\r\n"
+        """让浏览器以html解析"""
         data_blank = "\r\n"
 
         try:

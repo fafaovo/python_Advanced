@@ -1,0 +1,185 @@
+/*轮播图*/
+.swiper-container {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-container img{
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-container{
+    --swiper-theme-color: #ff6600;
+    --swiper-pagination-color: #00ff33;/* 两种都可以 */
+}
+
+.swiper-container{
+    --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+    --swiper-navigation-color: #00ff33;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+}
+
+/*common*/
+.main div,.main p,.main h2,.main ul,.main span{
+    margin-bottom: 20px;
+}
+
+.main{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.main h2{
+    font-size: 30px;
+}
+
+.main .btn{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.main .btn a{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #EDEDED;
+}
+
+.main .btn a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.main .tu{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.main .tu li{
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+.main .tu li img{
+    width: 220px;
+    height: 220px;
+}
+
+.main .tu li div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    padding-top: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.main .text{
+    font-size: 20px;
+    position: relative;
+}
+
+.main .text::before,.main .text::after{
+    content: "";
+    display: block;
+    width: 40%;
+    border-bottom: 1px solid #555555;
+    position: absolute;
+}
+
+.main .text::before{
+    top: 16px;
+    left: 40px;
+}
+
+.main .text::after{
+    top: 16px;
+    right: 40px;
+}
+
+.main .content{
+    padding: 0 200px;
+    position: relative;
+}
+
+.main .content::before,
+.main .content::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 62px;
+    position: absolute;
+}
+
+.main .content::before{
+    background: url("../img/pt1.png") no-repeat;
+    top: 8px;
+    left: 100px;
+}
+
+.main .content::after{
+    background: url("../img/pt2.png") no-repeat;
+    top: 8px;
+    right: 100px;
+}
+
+.contact{
+    height: 260px;
+    background-color: #e2e2e2;
+    padding: 20px 0;
+}
+.contact .w>h2{
+    text-align: center;
+}
+
+.message input{
+    width: 305px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.message textarea{
+    width: 638px;
+    padding: 8px;
+}
+
+.message button{
+    margin-top: 6px;
+    width: 80px;
+    background: #00BD9D;
+    color: white;
+    border: 0;
+    line-height: 30px;
+}
+
+.message_h2, .me_h2{
+    line-height: 40px;
+    border-bottom: 1px solid #9b9b9b;
+    margin-bottom: 10px;
+}
+
+.me{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+{
+  "id": "2398307",
+  "name": "limei的个人博客",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "354319",
+      "name": "向上",
+      "font_class": "iconfontxiangshang",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "693230",
+      "name": "向下箭头",
+      "font_class": "down",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "856966",
+      "name": "向上",
+      "font_class": "up",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "975632",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "993788",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "1288616",
+      "name": "公司邮编",
+      "font_class": "gongsiyoubian",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "3835616",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "4608987",
+      "name": "联系人",
+      "font_class": "lianxiren",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "5383657",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "8039081",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "9712642",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou1",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "12897863",
+      "name": "搜索",
+      "font_class": "sousuo-",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "15681632",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "16391285",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "18375356",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "18863190",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "19494217",
+      "name": "电 话",
+      "font_class": "dianhua",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}

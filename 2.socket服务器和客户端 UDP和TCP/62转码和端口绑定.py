@@ -26,7 +26,7 @@ def fasong():
 # 接收端绑定接收绑定端口
 # 创建嵌套字
 udp1 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-# 绑定端口号
+# 绑定端口号 尽可能端口号写为空
 udp1.bind(("", 8080))
 
 # 发送数据
