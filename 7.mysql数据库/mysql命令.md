@@ -18,6 +18,18 @@
     >    colum1 datatype,
     >    colum1 datatype,
     >};
+* 修改表结构
+    + 增加字段 alter table 表名 add 列名 类型
+    + 重命名字段 alter table 表名 change 原名 别名 类型及约束;
+    + 修改字段类型 alter table 表名 modify 列名 类型及约束;
+    + 删除字段 alter table 表名 drop 列名;
+    + 创建项目后最好不要修改表的结构，可以额外增加三四个预留字段
+* 增删查改
+    + 查询所有列 select * from 表名
+    + 插入表 
+        + 全部插入 insert into 表名 values(字段1,字段2)
+        + 指定插入 insert into 表名(字段,字段) values(字段1,字段2) 多行插入使用,隔开
+    + 修改 update 表名 set 列名 = 值 where 条件;
 
 
 
