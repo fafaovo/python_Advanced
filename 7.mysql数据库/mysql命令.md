@@ -30,6 +30,10 @@
         + 全部插入 insert into 表名 values(字段1,字段2)
         + 指定插入 insert into 表名(字段,字段) values(字段1,字段2) 多行插入使用,隔开
     + 修改 update 表名 set 列名 = 值 where 条件;
+    + 删除 delete from 表名 where 条件;
+* 数据库的备份 命令行内
+    + 备份 mysqldump -uroot -p 数据库名 > 文件名.sql
+    + 倒入 mysql -uroot -p 数据库名 < 要导入的脚本.sql
 
 
 

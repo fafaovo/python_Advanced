@@ -44,4 +44,12 @@ update students set name = '张三' where id = 1;
 --多行修改依然使用,隔开
 update students set age = 42,high = 1.58,gender='男',cls_id=35 where name = '张三';
 
-
+--删除 
+--物理删除 delete from 表名 where 条件;
+delete from students where id= 2;
+--逻辑删除 用一个字段表示这条信息是否不能用了
+--给students表添加一个 is_delete 字段 bit 类型
+--bit 只能保存 0 和 1
+alter table students add is_delete bit default 0;
+update students set is_delete = 1 where id = 3;
+select * from students where is_delete = 0;
