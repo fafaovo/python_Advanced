@@ -11,6 +11,11 @@ select * from students where name='张三';
 select id,name from students;
 -- as 别名
 select id as '编号' ,name as '姓名' from students;
+select id'编号',name'名字' from students;
+--你甚至还可以给表起别名 xxx.xxx == 表名->条件
+select s.id,s.name from students as s;
+--去除重复
+select distinct gender from students;
 
 --插入表 insert into 表名 values(字段1,字段2)
 +-------+------------------+------+-----+---------+----------------+
