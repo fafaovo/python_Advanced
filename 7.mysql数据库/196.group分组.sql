@@ -45,3 +45,6 @@ select gender,count(gender),group_concat(name) from students GROUP BY gender hav
 
 --with rollup 汇总
 select gender,count(*) from students GROUP BY gender with rollup;
+
+
+
