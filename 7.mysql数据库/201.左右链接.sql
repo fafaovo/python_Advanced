@@ -11,3 +11,5 @@ select * from students left join classes on students.cls_id = classes.id;
 select students.* from students left join classes  
 on students.cls_id = classes.id where classes.id is null;
 
+
+

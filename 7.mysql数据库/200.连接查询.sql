@@ -27,3 +27,5 @@ stu.cls_id =  cla.id;
 select cla.name,stu.* from 
 students as stu inner join classes as cla ON 
 stu.cls_id =  cla.id order by cla.id asc ,stu.id asc;
+
+
