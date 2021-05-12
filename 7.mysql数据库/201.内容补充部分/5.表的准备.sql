@@ -6,3 +6,10 @@ CREATE TABLE if not exists goods_cates(
     name VARCHAR(40) not null
 );
 
+
+--创建品牌的表
+CREATE TABLE if not exists goods_brands(
+    id int UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(40) not null
+);
+

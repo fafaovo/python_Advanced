@@ -12,6 +12,7 @@
  foreign key(字段名) references 已存在的表(以及他的字段名)
 */
 alter table goods add foreign key (brand_id) references goods_brands(id);
+alter table goods add foreign key (cate_id) REFERENCES goods_cate(id);
 
 CREATE table goods_test(
     id int PRIMARY AUTO_INCREMENT ,
