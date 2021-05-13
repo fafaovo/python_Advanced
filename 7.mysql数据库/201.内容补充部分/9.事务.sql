@@ -1,0 +1,6 @@
+--回滚操作 等同于ctrl+z
+--事务四大特性ACID
+    --原子性(atomicity) 事务操作是原子的,不能分割
+    --一致性(consistency) 双方的结果要一致
+    --隔离性(isolation) 同一时间只有一个事务做操作
+    --耐久性(durability) 操作完成结果持久不变
